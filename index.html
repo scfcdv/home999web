@@ -1,6 +1,22 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
 <head>
+<script>
+function buttonClicked() {
+document.body.style.backgroundImage = "url(si.gif)";}
+</script>
+<script>
+function buttonClicked2() {
+document.body.style.backgroundImage = "url(defo.png)";}
+</script>
+<script>
+function buttonClicked3() {
+document.body.style.backgroundImage = "url(kuro.png)";}
+</script>
+<script>
+function buttonClicked4() {
+document.body.style.backgroundImage = "url(siro.png)";}
+</script>
 <style>
 body{
   background-image: url("a.jpg");}
@@ -24,6 +40,26 @@ body{
   position: fixed;
   bottom: 10px;
   left: 355px;}
+#gd-menu5 {
+  margin:0;
+  position: fixed;
+  bottom: 10px;
+  left: 460px;}
+#gd-menu6 {
+  margin:0;
+  position: fixed;
+  bottom: 10px;
+  left: 565px;}
+#gd-menu7 {
+  margin:0;
+  position: fixed;
+  bottom: 10px;
+  left: 670px;}
+#gd-menu8 {
+  margin:0;
+  position: fixed;
+  bottom: 10px;
+  left: 775px;}
   
 *,
 *:before,
@@ -132,5 +168,9 @@ a.btn-border:active:before {
 <a id="gd-menu2" class="btn btn-border" href="https://scfcdv.github.io/setumei4/" target="_blank"><span>説明</span></a>
 <a id="gd-menu3" class="btn btn-border" href="https://scfcdv.github.io/sakusya/" target="_blank"><span>作者</span></a>
 <h1 id="gd-menu4">home999web</h1>
+<button id="gd-menu5" onclick="buttonClicked()">死</button>
+<button id="gd-menu6" onclick="buttonClicked2()">デフォルト</button>
+<button id="gd-menu7" onclick="buttonClicked3()">黒</button>
+<button id="gd-menu8" onclick="buttonClicked4()">白</button>
 </body>
 </html>
